@@ -1,0 +1,6 @@
+body {
+    background-image: url("../images/samuel-mcgarrigle-GVRRtaLj3LU-unsplash.jpg");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-color: #cccccc;
+   }
