@@ -6,13 +6,13 @@
     <header>
     </header>
     <body>
-        <h1>Search for a word in the bible.</h1>
+        <h1>Search for a saint in the bible.</h1>
         <form action="/biblesearch" method="post">
             <input type="text" name="word"></input>
             <button type="submit">Submit</button>
         </form>
         {% block content %}
-            <p>{{word}}</p>
+            <p>{{ word }}</p>
         {% endblock %}
     </body>
 </html>

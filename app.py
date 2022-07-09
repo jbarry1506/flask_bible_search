@@ -15,7 +15,7 @@ def index():
 
 @app.route('/biblesearch/', methods=["POST", "GET"])
 def search_bible():
-    word = request.args.get('word')
+    word = request.form['word']
     print(word)
     return render_template("index.html", word=word)
 
